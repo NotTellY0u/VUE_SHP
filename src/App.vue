@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <headerIndex></headerIndex>
+    <footerIndex></footerIndex>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import headerIndex from './components/Header'
+import footerIndex from './components/Footer'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    headerIndex,
+    footerIndex
   }
 }
 </script>
